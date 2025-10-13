@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		62F357C52E5E6A9F004A8B2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62F357AF2E5E6A9E004A8B2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62F357B62E5E6A9E004A8B2A;
+			remoteInfo = TTSSApp;
+		};
+		62F357CF2E5E6AA0004A8B2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62F357AF2E5E6A9E004A8B2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62F357B62E5E6A9E004A8B2A;
+			remoteInfo = TTSSApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		62F357B72E5E6A9E004A8B2A /* TTSSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTSSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62F357C42E5E6A9F004A8B2A /* TTSSAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTSSAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62F357CE2E5E6AA0004A8B2A /* TTSSAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTSSAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		62C6D8A62E5F8B3800D36D5C /* Exceptions for "TTSSApp" folder in "TTSSApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			platformFiltersByRelativePath = {
+				Assets.xcassets = (ios, );
+			};
+			target = 62F357B62E5E6A9E004A8B2A /* TTSSApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		62F357B92E5E6A9E004A8B2A /* TTSSApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				62C6D8A62E5F8B3800D36D5C /* Exceptions for "TTSSApp" folder in "TTSSApp" target */,
+			);
+			path = TTSSApp;
+			sourceTree = "<group>";
+		};
+		62F357C72E5E6AA0004A8B2A /* TTSSAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TTSSAppTests;
+			sourceTree = "<group>";
+		};
+		62F357D12E5E6AA0004A8B2A /* TTSSAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TTSSAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62F357B42E5E6A9E004A8B2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62F357C12E5E6A9F004A8B2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62F357CB2E5E6AA0004A8B2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62F357AE2E5E6A9E004A8B2A = {
+			isa = PBXGroup;
+			children = (
+				62F357B92E5E6A9E004A8B2A /* TTSSApp */,
+				62F357C72E5E6AA0004A8B2A /* TTSSAppTests */,
+				62F357D12E5E6AA0004A8B2A /* TTSSAppUITests */,
+				62F357B82E5E6A9E004A8B2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62F357B82E5E6A9E004A8B2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62F357B72E5E6A9E004A8B2A /* TTSSApp.app */,
+				62F357C42E5E6A9F004A8B2A /* TTSSAppTests.xctest */,
+				62F357CE2E5E6AA0004A8B2A /* TTSSAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62F357B62E5E6A9E004A8B2A /* TTSSApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62F357D82E5E6AA0004A8B2A /* Build configuration list for PBXNativeTarget "TTSSApp" */;
+			buildPhases = (
+				62F357B32E5E6A9E004A8B2A /* Sources */,
+				62F357B42E5E6A9E004A8B2A /* Frameworks */,
+				62F357B52E5E6A9E004A8B2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				62F357B92E5E6A9E004A8B2A /* TTSSApp */,
+			);
+			name = TTSSApp;
+			packageProductDependencies = (
+			);
+			productName = TTSSApp;
+			productReference = 62F357B72E5E6A9E004A8B2A /* TTSSApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62F357C32E5E6A9F004A8B2A /* TTSSAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62F357DB2E5E6AA0004A8B2A /* Build configuration list for PBXNativeTarget "TTSSAppTests" */;
+			buildPhases = (
+				62F357C02E5E6A9F004A8B2A /* Sources */,
+				62F357C12E5E6A9F004A8B2A /* Frameworks */,
+				62F357C22E5E6A9F004A8B2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62F357C62E5E6A9F004A8B2A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				62F357C72E5E6AA0004A8B2A /* TTSSAppTests */,
+			);
+			name = TTSSAppTests;
+			packageProductDependencies = (
+			);
+			productName = TTSSAppTests;
+			productReference = 62F357C42E5E6A9F004A8B2A /* TTSSAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		62F357CD2E5E6AA0004A8B2A /* TTSSAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62F357DE2E5E6AA0004A8B2A /* Build configuration list for PBXNativeTarget "TTSSAppUITests" */;
+			buildPhases = (
+				62F357CA2E5E6AA0004A8B2A /* Sources */,
+				62F357CB2E5E6AA0004A8B2A /* Frameworks */,
+				62F357CC2E5E6AA0004A8B2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62F357D02E5E6AA0004A8B2A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				62F357D12E5E6AA0004A8B2A /* TTSSAppUITests */,
+			);
+			name = TTSSAppUITests;
+			packageProductDependencies = (
+			);
+			productName = TTSSAppUITests;
+			productReference = 62F357CE2E5E6AA0004A8B2A /* TTSSAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62F357AF2E5E6A9E004A8B2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					62F357B62E5E6A9E004A8B2A = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					62F357C32E5E6A9F004A8B2A = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 62F357B62E5E6A9E004A8B2A;
+					};
+					62F357CD2E5E6AA0004A8B2A = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 62F357B62E5E6A9E004A8B2A;
+					};
+				};
+			};
+			buildConfigurationList = 62F357B22E5E6A9E004A8B2A /* Build configuration list for PBXProject "TTSSApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62F357AE2E5E6A9E004A8B2A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 62F357B82E5E6A9E004A8B2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62F357B62E5E6A9E004A8B2A /* TTSSApp */,
+				62F357C32E5E6A9F004A8B2A /* TTSSAppTests */,
+				62F357CD2E5E6AA0004A8B2A /* TTSSAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62F357B52E5E6A9E004A8B2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62F357C22E5E6A9F004A8B2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62F357CC2E5E6AA0004A8B2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62F357B32E5E6A9E004A8B2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62F357C02E5E6A9F004A8B2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62F357CA2E5E6AA0004A8B2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62F357C62E5E6A9F004A8B2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62F357B62E5E6A9E004A8B2A /* TTSSApp */;
+			targetProxy = 62F357C52E5E6A9F004A8B2A /* PBXContainerItemProxy */;
+		};
+		62F357D02E5E6AA0004A8B2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62F357B62E5E6A9E004A8B2A /* TTSSApp */;
+			targetProxy = 62F357CF2E5E6AA0004A8B2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		62F357D62E5E6AA0004A8B2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		62F357D72E5E6AA0004A8B2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62F357D92E5E6AA0004A8B2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Napa-County-Office-of-Education.TTSSApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		62F357DA2E5E6AA0004A8B2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Napa-County-Office-of-Education.TTSSApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		62F357DC2E5E6AA0004A8B2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Napa-County-Office-of-Education.TTSSAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTSSApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TTSSApp";
+			};
+			name = Debug;
+		};
+		62F357DD2E5E6AA0004A8B2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Napa-County-Office-of-Education.TTSSAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTSSApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TTSSApp";
+			};
+			name = Release;
+		};
+		62F357DF2E5E6AA0004A8B2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Napa-County-Office-of-Education.TTSSAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TTSSApp;
+			};
+			name = Debug;
+		};
+		62F357E02E5E6AA0004A8B2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Napa-County-Office-of-Education.TTSSAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TTSSApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62F357B22E5E6A9E004A8B2A /* Build configuration list for PBXProject "TTSSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62F357D62E5E6AA0004A8B2A /* Debug */,
+				62F357D72E5E6AA0004A8B2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62F357D82E5E6AA0004A8B2A /* Build configuration list for PBXNativeTarget "TTSSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62F357D92E5E6AA0004A8B2A /* Debug */,
+				62F357DA2E5E6AA0004A8B2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62F357DB2E5E6AA0004A8B2A /* Build configuration list for PBXNativeTarget "TTSSAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62F357DC2E5E6AA0004A8B2A /* Debug */,
+				62F357DD2E5E6AA0004A8B2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62F357DE2E5E6AA0004A8B2A /* Build configuration list for PBXNativeTarget "TTSSAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62F357DF2E5E6AA0004A8B2A /* Debug */,
+				62F357E02E5E6AA0004A8B2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62F357AF2E5E6A9E004A8B2A /* Project object */;
+}
