@@ -1,84 +1,38 @@
 import SwiftUI
 
-struct Instruction {
+struct Instruction: Codable, Identifiable {
+    let id = UUID()        // local ID for SwiftUI
     let title: String
     let steps: [String]
     let background: String
 }
 
+func loadInstructions() -> [Instruction] {
+    guard let url = Bundle.main.url(forResource: "instructions", withExtension: "json"),
+          let data = try? Data(contentsOf: url) else {
+        return []
+    }
+    
+    let decoder = JSONDecoder()
+    if let instructions = try? decoder.decode([Instruction].self, from: data) {
+        return instructions
+    }
+    return []
+}
+
+
 struct ContentView: View {
-    let instructions = [
-        Instruction(
-            title: "Add or Remove Apps in Office 365 Waffle",
-            steps: [
-                "Click on Waffle (or Menu icon).",
-                "Click on More apps.",
-                "Click on All apps to see all Microsoft apps.",
-                "Scroll down to Admin Selected and click on an app (e.g., Escape 6). It will open in another tab and be automagically added to the Waffle.",
-                "To pin it to the side bar, click on the Apps tab at the top and click on the 3 dots on Escape 6.",
-                "Click on Pin (now it is pinned to the side bar).",
-                "To remove an app, right-click on it and select Unpin."
-            ],
-            background: "bg1"
-        ),
-        Instruction(
-            title: "Share a File in OneDrive",
-            steps: [
-                "Open OneDrive.",
-                "Navigate to the file you want to share.",
-                "Right-click on the file and select Share.",
-                "Enter the recipient’s email or copy the link.",
-                "Click Send or Copy Link to finish."
-            ],
-            background: "bg2"
-        ),
-        Instruction(
-            title: "Use Copilot to compose emails",
-            steps: [
-                "In a new message, click on Draft with Copilot",
-                "Type in an idea of your email, hit enter",
-                "If the first draft is not exactly what you want use the prompt pop-up to make changes - like, click on make it shorter",
-                "Still not the tone you're looking for...try, make it funnier",
-                "Once Copilot has drafted the email they want you prefer, click on Keep it",
-                "Be sure to review it and make any edits before sending it"
-            ],
-            background: "bg3"
-        ),
-        Instruction(
-            title:"Empty your Deleted Items and your Junk Email folder",
-            steps: [
-                "Click on the Junk email folder.",
-                "Click on Empty folder icon",
-                "Click on Delete All in pop-up",
-                "Click on the Deleted Items email folder",
-                "Click on Empty folder icon",
-                "Click on Delete All in pop-up"
-            ],
-            background: "bg4"
-        ),
-        Instruction(
-            title: "How to Ask for Support",
-            steps: [
-                "Sign in to Zendesk",
-                "Click on Submit A Request at the top",
-                "Choose to whom the ticket should go or Other/I don't know",
-                "Complete the rest of the form with as much information about the issue - the more the better",
-                "Click on Submit",
-                "You will get a confirmation on the screen as well as an email",
-            ],
-                background: "bg5"
-            
-        )
-    ]
+    let instructions: [Instruction] = loadInstructions()
     
     var body: some View {
-        ZStack {
-            // 🔹 Outer TabView controls instruction + background
+        if instructions.isEmpty {
+            Text("No instructions available.")
+                .foregroundColor(.red)
+        } else {
             TabView {
-                ForEach(instructions.indices, id: \.self) { index in
+                ForEach(instructions) { instruction in
                     ZStack {
-                        // Background image changes per instruction
-                        Image(instructions[index].background)
+                        Image(instruction.background)
                             .resizable()
                             .scaledToFill()
                             .ignoresSafeArea()
@@ -86,7 +40,7 @@ struct ContentView: View {
                         Color.black.opacity(0.4).ignoresSafeArea()
                         
                         VStack {
-                            // 🔹 Fixed Logo
+                            // Logo
                             Image("logo")
                                 .resizable()
                                 .scaledToFit()
@@ -99,8 +53,8 @@ struct ContentView: View {
                                 )
                                 .padding(.bottom, 10)
                             
-                            // 🔹 Title (fixed under logo)
-                            Text(instructions[index].title)
+                            // Title
+                            Text(instruction.title)
                                 .font(.title2)
                                 .fontWeight(.bold)
                                 .foregroundColor(.white)
@@ -109,16 +63,16 @@ struct ContentView: View {
                             
                             Spacer()
                             
-                            // 🔹 Inner TabView for steps
+                            // Steps swipeable
                             TabView {
-                                ForEach(instructions[index].steps.indices, id: \.self) { stepIndex in
+                                ForEach(instruction.steps.indices, id: \.self) { stepIndex in
                                     VStack {
                                         Text("Step \(stepIndex + 1)")
                                             .font(.headline)
                                             .foregroundColor(.yellow)
                                             .padding(.bottom, 8)
                                         
-                                        Text(instructions[index].steps[stepIndex])
+                                        Text(instruction.steps[stepIndex])
                                             .foregroundColor(.white)
                                             .font(.body)
                                             .multilineTextAlignment(.center)
@@ -143,3 +97,4 @@ struct ContentView: View {
         }
     }
 }
+
