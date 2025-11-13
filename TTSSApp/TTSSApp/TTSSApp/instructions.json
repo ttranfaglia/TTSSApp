@@ -1,5 +1,6 @@
 [
   {
+    "category": "Microsoft 365",
     "title": "Add or Remove Apps in Office 365 Waffle",
     "steps": [
       "Click on Waffle (or Menu icon).",
@@ -12,6 +13,7 @@
     "background": "bg1"
   },
   {
+    "category": "Microsoft 365",
     "title": "Share a File in OneDrive",
     "steps": [
       "Open OneDrive.",
@@ -23,6 +25,7 @@
     "background": "bg2"
   },
   {
+      "category": "AI",
       "title": "Use Copilot to compose emails",
       "steps": [
           "In a new message, click on Draft with Copilot",
@@ -35,6 +38,7 @@
       "background": "bg3"
   },
   {
+      "category": "Email & Outlook",
       "title":"Empty your Deleted Items and your Junk Email folder",
       "steps": [
           "Click on the Junk email folder.",
@@ -47,6 +51,7 @@
       "background": "bg4"
   },
   {
+      "category": "ZenDesk",
       "title": "How to Ask for Support",
       "steps": [
           "Sign in to Zendesk",
@@ -58,6 +63,61 @@
       ],
       "background": "bg5"
       
+  },
+  {
+      "category": "Printing",
+      "title": "Troubleshooting connection and power",
+      "steps": [
+          "Question: The printer won't turn on or is not responding.",
+          "Answer: Ensure the printer is plugged in and the power cable is securely connected to both the printer and the power source. Check that the power button is pressed.",
+          "Question: The printer is connected but not printing.",
+          "Answer: Verify that the USB or network cable is securely plugged in on both the printer and the computer. Restart your computer and printer, then try printing again.",
+          "Question: I sent a document to print but it's stuck in the queue.",
+          "Answer: Restart the print spooler service on your computer. You can find this in the 'Services' menu, right-click 'Print Spooler,' and select 'Restart'. You can also clear the queue by canceling all pending print jobs. "
+
+      ],
+        "background":"bg4"
+      
+  },
+  {
+      "category": "Printing",
+      "title": "Troubleshooting print quality",
+      "steps":[
+          "Question: The print quality is poor, with missing lines or blurry text.",
+            "Answer:  Run the print head cleaning utility on your printer. If the problem persists, the print heads may need to be aligned. Your printer's maintenance or settings menu should have an option for this.",
+            "Question:  Colors are incorrect or washed out.",
+                "Answer: Check if the ink or toner cartridges are low or empty. Replace any that are empty and try printing again. You may also need to run a print head alignment or calibration.",
+            "Question: The text or images are skewed or crooked",
+            "Answer: Perform a print head alignment. This recalibrates the printer's internal components to ensure the lines print straight."
+      ],
+      "background":"bg3"
+    
+      
+  },
+  {
+      "category": "Printing",
+      "title": "File and design questions",
+      "steps":[
+          "Question: What is the correct color mode for professional printing?",
+          "Answer: Use the CMYK (Cyan, Magenta, Yellow, Key/Black) color model for accurate color reproduction on a commercial printer. RGB (Red, Green, Blue) is for digital screens.",
+          "Question: How do I make sure my document has enough space for an image or text?",
+          "Answer: For professional printing, you need to include a 'bleed'. This is an extra 1/8 inch margin around your document to account for any slight variations in the printing and cutting process. This means your finished size should be expanded by 1/4 inch to be safe.",
+          "Question: How can I make my printed document larger?",
+          "Answer: You can change the paper size in your print settings if your printer supports it (e.g., from Letter to Legal or Tabloid).",
+          "Question: What is a good resolution for printing images?",
+          "Answer: A resolution of 300 PPI (pixels per inch) is recommended for small print projects like cards and brochures, while 150 PPI is sufficient for larger formats like posters and banners."
+      ],
+      "background" :"bg2"
+  },
+  {
+      "category": "Password & Login",
+      "title": "Resetting Your ADSS Password",
+      "steps":[
+          "You can change your password by clicking on the 'Password Reset/Unlock Account' link displayed on the login screen",
+          "Or by opening the ADSS portal"
+      ],
+      "background" : "bg6"
   }
+
 ]
 
